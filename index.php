@@ -1,5 +1,9 @@
 <?php
 
-$greeting = 'Hello, World';
+$animals = [
+	'Zebra',
+	'Jaguar',
+	'Dog'
+];
 
 require 'index.view.php';

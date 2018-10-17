@@ -8,7 +8,18 @@
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
+	<nav class="navbar navbar-light bg-light">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Tasks</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/about/culture">Culture</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 	<div class="container text-center">
+		<h2>My Tasks</h2>
 		<ul class="list-group">
 			<?php foreach ($tasks as $task) : ?>
 				<li class="list-group-item">

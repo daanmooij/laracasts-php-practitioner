@@ -18,5 +18,4 @@
 			<?php endforeach; ?>
 		</ul>
 	</div>
-</body>
-</html>
+<?php require('partials/footer.php'); ?>
